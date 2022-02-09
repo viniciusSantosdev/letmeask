@@ -9,6 +9,8 @@ export function Button() {
   }
 
   return (
-    <button onClick={increment}>{counter}</button>
+    <button onClick={increment}>
+      {counter}
+    </button>
   );
 }
