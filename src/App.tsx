@@ -1,8 +1,9 @@
 import { HomeScreen } from "pages/HomeScreen";
+import { NewRoom } from "pages/NewRoom/NewRoom";
 
 function App() {
   return (
-    <HomeScreen />
+    <NewRoom />
   );
 }
 
