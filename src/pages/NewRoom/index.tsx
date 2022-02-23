@@ -36,3 +36,5 @@ export function NewRoom() {
         </div>
     );
 }
+
+//45:56 minutos restantes

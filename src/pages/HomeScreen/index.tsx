@@ -11,8 +11,8 @@ import 'styles/auth.scss';
 export function HomeScreen() {
     const navigate = useNavigate();
 
-    function nvigateToNewRoom(){
-        navigate('/rooms/new');
+    function handleCreateRoom() {
+            navigate('/rooms/new');
     }
 
     return (
@@ -25,7 +25,7 @@ export function HomeScreen() {
             <main>
                 <div className="main-content">
                     <img src={logoImg} alt="Letmeask" />
-                    <button onClick={nvigateToNewRoom} className="create-room">
+                    <button onClick={handleCreateRoom} className="create-room">
                         <img src={googleIconImg} alt="Logo do Google" />
                         Crie sua sala com o Google
                     </button>
